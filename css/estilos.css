@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 70%;
+    margin: auto;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    line-height: 2.5em;
+  }
+ul > li{
+    width:100%;
+    font-size: 1.5em;
+    /* margin-left: 22px; */
+    /* position: relative; */
+    border-bottom: 2px solid rgb(156, 156, 156);
+    list-style-position:inside;
+    
+}
+button:first-child{
+    font-size: .8em;
+    color: rgb(235, 0, 0);
+    float: right;
+    margin: 8px 0;
+}
+/* li button:last-child{
+    color: red;
+} */
+
+.principal div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+#tarea{
+    width: 70%;
+    height: 2.2em;
+}
+
+.principal div button{
+    width: 30%;
+    font-size: large;
+}
+/* 
+.tareas ul li{
+  padd
+} */
+.oculto{
+    display: none;
+
+}
+ul li.checked {
+    /* background: #888;
+    color: #fff; */
+    text-decoration: line-through;
+  }
