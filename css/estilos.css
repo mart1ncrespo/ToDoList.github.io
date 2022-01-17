@@ -27,11 +27,12 @@ ul > li{
     font-size: 1.5em;
     /* margin-left: 22px; */
     /* position: relative; */
-    border-bottom: 2px solid rgb(156, 156, 156);
     list-style-position:inside;
+    border-bottom: 2px solid rgb(156, 156, 156);
     
 }
 li button:first-child{
+    border-radius: 80px;
     font-size: .8em;
     color: rgb(138, 9, 9);
     float: right;
@@ -66,10 +67,7 @@ li button:first-child{
     width: 30%;
     font-size: large;
 }
-/* 
-.tareas ul li{
-  padd
-} */
+
 .oculto{
     display: none;
 
@@ -90,13 +88,13 @@ ul li.checked {
     } */
 
     li button:first-child{
+        /* float: right; */
         background-color: #d7f3e5;
         font-size: .8em;
         /* text-shadow: rgb(255, 4, 4); */
         /* padding: 2px 2px; */
-        color: #4b6964;
-        float: right;
-        margin: 8px 0;
+        color: #ac0000;
+        /* margin: 8px 0; */
         padding: 0px 10px;
         /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
     }
@@ -124,5 +122,9 @@ ul li.checked {
     }
     .principal h1{
         font-size: 2em;
+    }
+    ul > li{
+        font-size: 1.2em;
+        
     }
 }
