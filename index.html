@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet"> 
+
     <link rel="stylesheet" href="css/estilos.css">
     <title>ToDoList</title>
 </head>
@@ -11,16 +16,16 @@
     <div class="container">
         <div class="principal">
             <h1>Lista de tareas</h1><br>
-            <div>
+            <div class="campo_tareas">
                 <input id="tarea" type="text" placeholder="Escriba la nueva tarea"> 
                 <button onclick="AgregarNuevaTarea()" id="btn_agregar">Agregar</button>
             </div>
         </div>
         <div class="tareas">
             <ul id="tareas_elementos">
-                <li>Comprar viveres <!--<button>Editar</button>--><button class="cerrar" onclick="EliminarTarea(this)">Eliminar</button></li>
-                <li>Pasear al perro <!--<button>Editar</button>--><button class="cerrar" onclick="EliminarTarea(this)">Eliminar</button></li>
-                <li>Limpiar la casa <!--<button>Editar</button>--><button class="cerrar" onclick="EliminarTarea(this)">Eliminar</button></li>
+                <li>Comprar viveres <!--<button>Editar</button>--><button class="cerrar" onclick="EliminarTarea(this)">X</button></li>
+                <li>Pasear al perro <!--<button>Editar</button>--><button class="cerrar" onclick="EliminarTarea(this)">X</button></li>
+                <li>Limpiar la casa <!--<button>Editar</button>--><button class="cerrar" onclick="EliminarTarea(this)">X</button></li>
             </ul>
         </div>
     </div>

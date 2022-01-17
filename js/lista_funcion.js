@@ -25,7 +25,7 @@ function CrearBotones(padre){
 
     let eliminar = document.createElement("button");
     eliminar.classList.add("cerrar")
-    let elimText = document.createTextNode("Eliminar")
+    let elimText = document.createTextNode("X")
     eliminar.appendChild(elimText);
     eliminar.addEventListener("click",EliminarTarea);
     padre.appendChild(eliminar);

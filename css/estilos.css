@@ -1,14 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    /* align-content: center; */
     width: 70%;
     margin: auto;
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
 h1{
     font-size: 3em;
@@ -28,12 +30,18 @@ ul > li{
     list-style-position:inside;
     
 }
-button:first-child{
+li button:first-child{
     font-size: .8em;
-    color: rgb(235, 0, 0);
+    color: rgb(138, 9, 9);
     float: right;
     margin: 8px 0;
 }
+/* button:first-child{
+    font-size: .8em;
+    color: rgb(138, 9, 9);
+    float: right;
+    margin: 8px 0;
+} */
 /* li button:last-child{
     color: red;
 } */
@@ -43,6 +51,10 @@ button:first-child{
     justify-content: center;
     align-content: center;
     flex-direction: row;
+}
+.principal h1{
+    color: #FFB319;
+    -webkit-text-stroke: 1px #d89000
 }
 #tarea{
     width: 70%;
@@ -66,3 +78,50 @@ ul li.checked {
     color: #fff; */
     text-decoration: line-through;
   }
+  input::placeholder {
+    font-family: 'Mochiy Pop P One', sans-serif;
+  }
+  
+
+  @media only screen and (max-width: 420px){
+    /* html{
+        font-size: 90%;
+    } */
+
+    li button:first-child{
+        background-color: #d7f3e5;
+        font-size: .8em;
+        /* text-shadow: rgb(255, 4, 4); */
+        /* padding: 2px 2px; */
+        color: #4b6964;
+        float: right;
+        margin: 8px 0;
+        padding: 0px 10px;
+        /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+    }
+    .container{
+        /* font-size: 14px; */
+        margin-top: 1em;
+        height: 90vmax;
+        width: 95%;
+        justify-content:start;
+        align-content: flex-start;
+        background-color: #FFE194;
+        border-radius: 20px;
+    }
+    .campo_tareas{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .tareas{
+        padding: .2em;
+        width: 95%;
+        height: 85%;
+        margin: .5em auto;
+        background-color: #E8F6EF;
+        border-radius: 15px;
+    }
+    .principal h1{
+        font-size: 2em;
+    }
+}
