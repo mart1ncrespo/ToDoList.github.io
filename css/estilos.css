@@ -27,7 +27,7 @@ ul {
   }
 ul > li{
     width:100%;
-    font-size: 1.5em;
+    font-size: 1.2em;
     /* margin-left: 22px; */
     /* position: relative; */
     list-style-position:inside;
@@ -41,7 +41,7 @@ li button:first-child{
     color: rgb(138, 9, 9);
     float: right;
     margin: 8px 0;
-    padding: 0 1em;
+    padding: 0 .8em;
 }
 /* button:first-child{
     font-size: .8em;
