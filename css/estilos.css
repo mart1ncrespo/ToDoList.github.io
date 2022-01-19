@@ -31,6 +31,7 @@ ul > li{
     /* margin-left: 22px; */
     /* position: relative; */
     list-style-position:inside;
+    list-style-type: "\2B1C";
     border-bottom: 2px solid rgb(156, 156, 156);
     
 }
@@ -88,6 +89,7 @@ ul li.checked {
     /* background: #888;
     color: #fff; */
     text-decoration: line-through;
+    list-style-type:"\2705";
   }
   input::placeholder {
     font-family: 'Mochiy Pop P One', sans-serif;
