@@ -18,10 +18,6 @@ function AgregarNuevaTarea(){
 
 
 function CrearBotones(padre){
-    // let editar = document.createElement("button");
-    // let editText = document.createTextNode("Editar")
-    // editar.appendChild(editText);
-    // padre.appendChild(editar);
 
     let eliminar = document.createElement("button");
     eliminar.classList.add("cerrar")

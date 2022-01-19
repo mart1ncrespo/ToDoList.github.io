@@ -8,9 +8,12 @@
     flex-direction: column;
     justify-content: center;
     /* align-content: center; */
-    width: 70%;
+    height: 90vmax;
+    width: 95%;
     /* hei */
     margin: auto;
+    border-radius: 20px;
+    background-color: #FFE194;
     font-family: 'Mochiy Pop P One', sans-serif;
 }
 h1{
@@ -37,6 +40,7 @@ li button:first-child{
     color: rgb(138, 9, 9);
     float: right;
     margin: 8px 0;
+    padding: 0 1em;
 }
 /* button:first-child{
     font-size: .8em;
@@ -61,6 +65,14 @@ li button:first-child{
 #tarea{
     width: 70%;
     height: 2.2em;
+    margin-right: .5em;
+}
+#btn_agregar{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.campo_tareas{
+    width: 95%;
+    margin: 0 auto;
 }
 
 .principal div button{
@@ -79,6 +91,14 @@ ul li.checked {
   }
   input::placeholder {
     font-family: 'Mochiy Pop P One', sans-serif;
+  }
+  .tareas{
+    padding: .2em;
+    width: 95%;
+    height: 85%;
+    margin: .5em auto;
+    border-radius: 15px;
+    background-color: #E8F6EF;
   }
   
 
@@ -101,25 +121,25 @@ ul li.checked {
     .container{
         /* font-size: 14px; */
         margin-top: 1em;
-        height: 90vmax;
-        width: 95%;
+        /* height: 90vmax;
+        width: 95%; */
         justify-content:start;
         align-content: flex-start;
         background-color: #FFE194;
-        border-radius: 20px;
+        /* border-radius: 20px; */
     }
-    .campo_tareas{
+    /* .campo_tareas{
         width: 95%;
         margin: 0 auto;
-    }
-    .tareas{
+    } */
+    /* .tareas{
         padding: .2em;
         width: 95%;
         height: 85%;
         margin: .5em auto;
         background-color: #E8F6EF;
         border-radius: 15px;
-    }
+    } */
     .principal h1{
         font-size: 2em;
     }
